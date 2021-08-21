@@ -4,11 +4,7 @@ import streamlit as st
 import cv2
 from deepface import DeepFace as dfc
 from PIL import Image
-from tensorflow import keras
-from keras.models import load_model
 import os
-#model = load_model("C:/Users/Babar kahn/.deepface/weights/facial_expression_model_weights.h5")
-#dfc.analyze(actions='Emotion',models=model)
 
 # function to load image
 try:
